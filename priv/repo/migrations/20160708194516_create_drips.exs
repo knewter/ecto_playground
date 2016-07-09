@@ -5,7 +5,7 @@ defmodule EctoPlayground.Repo.Migrations.CreateDrips do
     create table(:drips) do
       add :identifier, :string
       add :title, :string
-      add :teaser, :string
+      add :teaser, :text
       add :slug, :string
       add :description, :text
       add :video, :string

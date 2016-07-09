@@ -19,7 +19,8 @@ defmodule EctoPlayground.Mixfile do
   defp deps do
     [
       {:postgrex, "~> 0.11.2"},
-      {:ecto, "~> 2.0"}
+      {:ecto, "~> 2.0"},
+      {:csv, "~> 1.4.2"}
     ]
   end
 
